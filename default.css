@@ -1,10 +1,10 @@
 @font-face {
   font-family: "tborder";
-  src:url("/fonts/tborder.eot");
-  src:url("/fonts/tborder.eot?#iefix") format("embedded-opentype"),
-    url("/fonts/tborder.woff") format("woff"),
-    url("/fonts/tborder.ttf") format("truetype"),
-    url("/fonts/tborder.svg#tborder") format("svg");
+  src:url("./fonts/tborder.eot");
+  src:url("./fonts/tborder.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/tborder.woff") format("woff"),
+    url("./fonts/tborder.ttf") format("truetype"),
+    url("./fonts/tborder.svg#tborder") format("svg");
   font-weight: normal;
   font-style: normal;
 
