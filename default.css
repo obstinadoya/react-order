@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "tborder";
+  src:url("/fonts/tborder.eot");
+  src:url("/fonts/tborder.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/tborder.woff") format("woff"),
+    url("/fonts/tborder.ttf") format("truetype"),
+    url("/fonts/tborder.svg#tborder") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+a {
+	color: #FFF;
+	color: #FF0000;
+}
+
+body {
+	font-family: Arial;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+th {
+	background: #EEE;
+}
+.inp-store-order {
+	width: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+.qt {
+	text-align: center;
+}
+.orderQt {
+  display: inline-block;
+	margin-left: 5px;
+  padding: 2px 7px;
+  background-color: #EEE;
+}
+
+button {
+  padding: 3px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input {
+  margin-left: 5px;
+}
+
+[data-icon]:before {
+  font-family: "tborder";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ico-"]:before,
+[class*=" ico-"]:before {
+  font-family: "tborder";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-pencil:before {
+  content: "a";
+}
+.ico-save:before {
+  content: "b";
+}
+.ico-trash:before {
+  content: "c";
+}
+
+.ico-save {
+  color: blue;
+}
+
+.ico-trash {
+  margin-left: 5px;
+  color: #E0191F;
+}
